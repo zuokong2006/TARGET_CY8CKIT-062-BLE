@@ -25,6 +25,8 @@ This version of the CY8CKIT-062-BLE BSP was validated for compatibility with the
 * [CY8CKIT-062-BLE BSP API Reference Manual][api]
 * [CY8CKIT-062-BLE Documentation](http://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-pioneer-kit)
 * [Cypress Semiconductor](http://www.cypress.com)
+* [Cypress Semiconductor GitHub](https://github.com/cypresssemiconductorco)
+* [ModusToolbox](https://www.cypress.com/products/modustoolbox-software-environment)
 
 [api]: modules.html
 
