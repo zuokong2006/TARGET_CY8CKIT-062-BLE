@@ -1,6 +1,9 @@
 ### CY8CKIT-062-BLE BSP
 The PSoC 6 BLE Pioneer Kit is a low-cost hardware platform that enables design and debug of the PSoC 63 Line (CY8C6347BZI-BLD53).
 
+### What's New In This Release?
+* Added pin references for the board's J2 Header
+
 ### What's Included?
 The CY8CKIT-062-BLE library includes the following:
 * BSP specific makefile to configure the build process for the board
@@ -25,8 +28,6 @@ This version of the CY8CKIT-062-BLE BSP was validated for compatibility with the
 * [CY8CKIT-062-BLE BSP API Reference Manual][api]
 * [CY8CKIT-062-BLE Documentation](http://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-pioneer-kit)
 * [Cypress Semiconductor](http://www.cypress.com)
-* [Cypress Semiconductor GitHub](https://github.com/cypresssemiconductorco)
-* [ModusToolbox](https://www.cypress.com/products/modustoolbox-software-environment)
 
 [api]: modules.html
 
