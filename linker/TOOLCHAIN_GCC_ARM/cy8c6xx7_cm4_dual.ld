@@ -209,7 +209,30 @@ SECTIONS
 
         __copy_table_end__ = .;
     } > flash
-
+    
+	/* setction information for finsh shell begin */
+    FSymTab : 
+    {
+        . = ALIGN(4);
+        __fsymtab_start = .;
+        KEEP(*(FSymTab))
+        __fsymtab_end = .;
+    } > flash
+    VSymTab : 
+    {
+        . = ALIGN(4);
+         __vsymtab_start = .;
+        KEEP(*(VSymTab))
+        __vsymtab_end = .;
+    } > flash
+    rti_fn : 
+    {
+        . = ALIGN(4);
+        __rt_init_start = .;
+        KEEP(*(SORT(.rti_fn*)))
+        __rt_init_end = .;
+    } > flash
+    /* setction information for finsh shell end */
 
     /* To clear multiple BSS sections,
      * uncomment .zero.table section and,
