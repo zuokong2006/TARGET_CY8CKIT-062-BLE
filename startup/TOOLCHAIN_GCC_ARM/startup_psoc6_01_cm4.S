@@ -429,7 +429,8 @@ Reset_Handler:
     bl    __libc_init_array
 
     /* Execute main application */
-    bl    main
+    //bl    main
+    bl    entry
 
     /* Call C/C++ static destructors */
     bl    __libc_fini_array
